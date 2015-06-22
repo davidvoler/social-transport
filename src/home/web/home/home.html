@@ -4,8 +4,9 @@
       <md-list>
         <md-header>Routes</md-header>
         <md-list-item ng-repeat="r in home.routes">
-          {{r}}
+          <span>{{r}}</span>
           <md-icon class="mdi" ng-class="home.getProviderIcon(r.provider)"></md-icon>
+          <md-icon class="mdi mdi-car" ></md-icon>
 
         </md-list-item>
       </md-list>
