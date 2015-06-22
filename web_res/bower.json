@@ -1,0 +1,19 @@
+{
+  "name": "social-transport",
+  "version": "0.0.0",
+  "homepage": "https://github.com/davidvoler/social-transport",
+  "authors": [
+    "davidl <davidl@crow.co.il>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mdi": "~1.1.34"
+  }
+}
