@@ -1,2 +1,14 @@
-<div ng-bind="home.msg">
-</div>
+<section>
+  <md-card>
+    <md-card-content>
+      <md-list>
+        <md-header>Routes</md-header>
+        <md-list-item ng-repeat="r in home.routes">
+          {{r}}
+          <md-icon class="mdi" ng-class="home.getProviderIcon(r.provider)"></md-icon>
+
+        </md-list-item>
+      </md-list>
+    </md-card-content>
+  </md-card>
+</section>
