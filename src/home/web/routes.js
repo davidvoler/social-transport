@@ -12,7 +12,7 @@
   }
 
 
-  angular.module('social-transport')
+  angular.module('social.transport')
     .config(['$routeProvider', routes]);
 }());
 

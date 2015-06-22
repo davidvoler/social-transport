@@ -1,7 +1,8 @@
 (function () {
-    angular.module('home',
+    angular.module('social.transport',
         [
-            'ngRoute'
+            'ngRoute',
+            'ngMaterial'
         ]
     );
 

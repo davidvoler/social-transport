@@ -6,6 +6,6 @@
         console.log('HomeController');
     }
 
-    angular.module('ate.report')
+    angular.module('social.transport')
         .controller('HomeController', [HomeController]);
 }());
