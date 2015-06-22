@@ -27,10 +27,48 @@ Different cities/states/countries may have different needs and restrictions. The
 This solution will encourage cooperation, sharing your transport offer might be interpreted as a threat in a competitive market.
 However when transport is shared and social more people will use public and private transport.  
 
+#Architecture 
+
+We have the following elements:
+
+Provider 
+    Admin Application
+    Driver Application
+Central Server/Database
+    
+The provider publishes his services using Social Transport API. 
+The driver Application is used to get car/bus/taxi location and set availability (and number of seats available) 
+ 
+ 
+Provider Example:
+Friends Carpool Application.
+ Our application will offer car pooling based on facebook or other social networks friends. 
+ User can moderate people in his carpool list. Compensation will be handled by the application.
+ 
+
+   
+
+
+
+#API
+
+Group 
+Route 
+Route Status
+
+##Questions 
+Providers - Central Server relationship. 
+Should the routes be managed centrally. Providers will update a central server with routes and status and the social-transport 
+will provide this information to the commuters. 
+The other options is that the providers will manage routes and the cntral server will query this information online. 
+
+
+
 #Technology 
 We choose the following technologies in our prototype:
 
 Database - Mondodb
 Server/Application Login - Python/Tornado
 Client Side - Angularjs, angular material design  
+
 
