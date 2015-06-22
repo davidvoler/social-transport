@@ -1,4 +1,3 @@
-
 import pymongo
 import motor
 from tornado.options import options, parse_config_file
