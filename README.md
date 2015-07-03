@@ -1,13 +1,13 @@
-# social-transport
+# Social transport - Share transport when ever you can. 
+
+
 Unified transport application. a combination for public transport, car pool, private transport, shared taxi and others.
 An open source system that will encourage sharing transport means, improve efficiency by uniting transport 
 options and as a result reduce CO2 emission. 
 
 
 #The problem
-We all know how difficult it is to commute during rush hours.
-How many of the 
-If we choose public transport we might have no place. 
+We all know how difficult it is to commute during rush hours. 
 
 #Our Aim
 Provide a platform for encouraging people to share transportation means. 
